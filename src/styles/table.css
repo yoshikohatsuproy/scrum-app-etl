@@ -1,0 +1,149 @@
+.contenedor-tablas {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.fila{
+    float: right;
+    margin-bottom: 20px;
+}
+
+.filaTabla {
+    margin-top: 20px;
+}
+
+.button {
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.linkButton {
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+
+.linkButton i {
+    color: #fff;
+}
+
+.buttonfila{
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin: 0 2px;
+    color: var(--white);
+    background-color: var(--primary-color);
+    opacity: 80%;
+    border: 1px solid var(--primary-color);
+    transition: 1s ease;
+}
+
+.buttonfila:hover{
+    opacity: 1;
+}
+
+.buttonfila i{
+    margin-right: 4px;
+}
+
+table {
+    text-align: center;
+    min-width: 600px;
+}
+
+table .button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: flex;
+    color: white;
+}
+
+table .linkButton {
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: flex;
+}
+
+.success{
+    background-color: green;
+    border: 2px solid green;
+}
+
+.danger{
+    background-color: red;
+    border: 2px solid red;
+}
+
+.prim{
+    background-color: blue;
+    border: 2px solid blue;
+}
+
+table .linkButton i {
+    margin: 0;
+    padding: 2px;
+    font-size: 12px;
+}
+
+
+table .button i {
+    margin: 0;
+    padding: 2px;
+    font-size: 12px;
+}
+
+table div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+} 
+
+table tbody tr {
+    border-bottom: 1px solid black;
+    transition: all 0.5s ease;
+}
+
+table tbody tr:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+.button i {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.linkButton i {
+
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+@media (max-width: 1100px) {
+    .tabla-crud {
+        overflow-x: scroll;
+    }
+
+    .tabla-crud::-webkit-scrollbar {
+        height: 5px;
+        background: gray;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .tabla-crud::-webkit-scrollbar-thumb {
+        background: var(--primary-color);
+        opacity: 20%;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
